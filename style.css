@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reset rulls*/
+
+
+/*navbar*/
+.nav-left {
+    display: inline-flex;
+    align-items: center;
+    color: #567189;
+}
+
+.nav-right {
+    display: inline-flex;
+    align-items: center;
+}
+
+ul {
+    display: inline-flex;
+    
+}
+
+li a {
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #567189;
+    padding: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+li a:hover {
+color: #90b4d3;
+border: 1px solid;
+border-radius: 5px;
+background-color: rgba(62, 65, 68, 0.623);
+
+}
+
+a:active {
+    color: #7a7875;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfb997c4;
+    padding: 20px;
+    border-bottom: rgb(233, 227, 227) 2px  solid;
+}
+
+
+
+
+/*Header*/
+header {
+    display: flex;
+    justify-content:center;
+	width: 100%;
+}
+
+#home { 
+    height: 300px;
+    background-color: #fad6a5a1;
+    text-shadow: #FAD6A5 1px 0 10px;
+}
+
+h1 {
+    display: inline-flex;
+    justify-content: center;
+}
+
+p {
+    display: inline-flex;
+    justify-content: left;
+    width: 300px;
+}
+.pic {
+    display: inline-flex;
+    justify-content: right;
+    
+}
+
+/*main*/
+
+#duck {
+    background-color: #fad6a5a1;
+    text-shadow: #FAD6A5 1px 0 10px;
+}
+#duck {
+    display: flex;
+    
+}
+
+#emergency {
+    background-color: #fad6a5a1;
+}
+
+.grid-container a {
+    border: 1px solid #567189;
+    border-radius: 50px;
+}
+
+a:hover {
+    color: #90b4d3;
+    border: 1px solid #567189;
+    border-radius: 5px;
+    background-color: rgba(62, 65, 68, 0.623);
+    
+    }
+/*footer*/
+.grid-container a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #567189;
+}
+.grid-container a:hover {
+    color: #7B8FA1;
+    }
+    
+.grid-container a:active {
+    color: #CFB997;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+input {
+    border: 3px solid #567189;
+    border-radius: 20px;
+    box-shadow: 0 1px #576979c2;
+    margin: 10px;
+}
+
+input:focus {
+    background-color: #e0d3bfbe;
+}
+
+
+textarea {
+    border: 3px solid #567189;
+    border-radius: 20px;
+    box-shadow: 0 1px #576979c2;
+    margin: 10px;
+}
+
+textarea:focus  {
+    background-color: #e0d3bfbe;
+}
+
+button {
+    border: 3px solid #567189;
+    border-radius: 20px;
+    box-shadow: 0 1px #576979c2;
+    width: 100px;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    color: #7B8FA1;
+}
+button:active{
+    background-color: #567189;
+}
+#contact {
+    background-color: #fad6a5a1;
+    text-shadow: #FAD6A5 1px 0 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    text-shadow: #FAD6A5 1px 0 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+
+
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
